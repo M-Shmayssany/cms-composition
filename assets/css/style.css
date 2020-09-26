@@ -161,8 +161,59 @@ body {
 }
 
 #milieu {
-  height: 40rem;
+  height: 55rem;
   width: 35rem;
   background-color: #f5f5f5;
+}
+
+#milieu article {
+  position: relative;
+  top: 15rem;
+  left: 15rem;
+  width: 70vw;
+}
+
+#milieu article .card-text {
+  font-size: 42px;
+}
+
+#tissus {
+  display: flex;
+}
+
+#tissus article {
+  padding: 5rem 2rem 5rem 5rem;
+}
+
+#tissus article p {
+  line-height: 2rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+#tissus-left {
+  float: left;
+}
+
+#tissus-left img {
+  width: 50rem;
+}
+
+#milieu article p a, #tissus article p a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.footer {
+  border-top: 1px solid #919191c7;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer img {
+  padding: 1.5rem;
+  border-radius: 70px;
+  border: 1px solid #000000;
 }
 /*# sourceMappingURL=style.css.map */
